@@ -2,7 +2,7 @@
 “Hello from Fun” on console.'''
 
 def fun():
-    print("Hello from Fun \n");
+    print("Hello from Fun\n");
 
 
 def main():
