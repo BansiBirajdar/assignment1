@@ -6,7 +6,7 @@ def fun():
 
 
 def main():
-    print("inside the main\n\");
+    print("inside the main\n");
     fun();
     
 if(__name__=="__main__"):
