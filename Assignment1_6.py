@@ -8,16 +8,15 @@
     
 def CheckNum(no):
     if(no==0):
-        print("Number is Zero.");
+        print("Given Number is Zero.")
     elif(no>0):
-        print("positive Number");
+        print("positive Number")
     else:
-        print("Negative Number");
-        Assignment1_6.py
-        
+        print("Negative Number")
+
 def main():
-    no=int(input("Enter the number="));
-    CheckNum(no);
+    no=int(input("Enter the number="))
+    CheckNum(no)
     
 if(__name__=="__main__"):
-    main();
+    main()

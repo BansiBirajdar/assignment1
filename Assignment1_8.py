@@ -3,12 +3,14 @@
 
 def Display(no):
     print(" output=",end=" ");
+    if(no<=0):
+        print("enter the positive no")
     for i in range(0,no):
         print("*\t",end=" ");
         
 def main():
-    no=int(input("Enter the number how many time print \'*\'= "));
-    Display(no);
+    no=int(input("Enter the number how many time print \"*\"="))
+    Display(no)
     
 if(__name__=="__main__"):
     main();

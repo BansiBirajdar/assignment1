@@ -2,12 +2,12 @@
 “Hello from Fun” on console.'''
 
 def fun():
-    print("Hello from Fun");
+    print("Hello from Fun")
 
 
 def main():
-    print("inside the main\n");
-    fun();
+    print("inside the main\n")
+    fun()
     
 if(__name__=="__main__"):
-    main();
+    main()

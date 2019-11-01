@@ -5,13 +5,13 @@
 
 def Div(no):
     if(no%5==0):
-        return True;
+        return True
     else:
-        return False;
+        return False
 def main():
-    no=int(input("Enter the number="));
-    print("output=",Div(no));
+    no=int(input("Enter the number="))
+    print("output is {} ".format(Div(no)))
     
 if(__name__=="__main__"):
-    main();
+    main()
         

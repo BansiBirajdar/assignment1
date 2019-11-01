@@ -5,12 +5,12 @@ otherwise display “Odd number” on console.
     
 def ChkNum(no):
     if(no%2==0):
-        print(" \nEven number\n ");
+        print(" \nEven number\n ")
     else:
-        print(" \nodd number\n ");
+        print(" \nodd number\n ")
 def main():
-    no=int(input("Enter the number = "));
-    ChkNum(no);
+    no=int(input("Enter the number = "))
+    ChkNum(no)
 
 if(__name__=="__main__"):
-    main();
+    main()
